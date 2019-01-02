@@ -6,7 +6,8 @@
 <h1>HELLO</h1>
   <script>
     //var F = G.getElementById("dnaWallet").innerHTML;
-    document.write(localStorage.getItem("G"));
+    var G = JSON.parse(localStorage.getItem("G"))
+    document.write(G);
   </script>
 </body>
 </html>
