@@ -17,6 +17,7 @@ function hello(G){
   var user_name = G.querySelector('#mainui-user .user-container .user-name').innerHTML;
   var progress_bar_text = G.querySelector('#progressBar .progress-bar-text').innerHTML;
   var progress_bar_level = G.querySelector('#progressBar .progress-bar-star span').innerHTML;
+  var starClass = G.querySelector('#progressBar div:nth-child(3)').getAttribute('class');
   var xpButtonClass = G.querySelector('#xpButton div').getAttribute('class');
   var xpButtonCount = G.querySelector('#xpButton div span').innerHTML;
   var massButtonClass = G.querySelector('#xpButton div').getAttribute('class');
@@ -43,7 +44,7 @@ function hello(G){
       mainui_user +=        '<span class="progress-bar-textF3">'+progress_bar_text+'</span>';
       mainui_user +=     '</div>';
       mainui_user +=     '<div class="progress-bar-border"></div>';
-      mainui_user +=     '<div class="progress-bar-starF3 sprite leaguestar-fly">';
+      mainui_user +=     '<div class="'+starClass+'">';
       mainui_user +=        '<span>'+progress_bar_level+'</span>';
       mainui_user +=     '</div>';
       mainui_user += '</div>';
