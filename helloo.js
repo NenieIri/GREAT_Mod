@@ -12,8 +12,8 @@ function hello(G){
   var user_name = G.querySelector('#mainui-user .user-container .user-name').innerHTML;
   var progress_bar_text = G.querySelector('#progressBar .progress-bar-text').innerHTML;
   var progress_bar_level = G.querySelector('#progressBar .progress-bar-star span').innerHTML;
-  var xpButtonCount = '';//G.querySelector('#xpButton div span').innerHTML;
-  var massButtonCount = '';//G.querySelector('#massButton div span').innerHTML;
+  var xpButtonCount = G.querySelector('#xpButton div span').innerHTML;
+  var massButtonCount = G.querySelector('#massButton div span').innerHTML;
   
   var mainui_user = '<div class="user-container">';
       
@@ -52,7 +52,7 @@ function hello(G){
       mainui_user +=    '<div data-f5="" class="circle green">';
       mainui_user +=        '<span>'+massButtonCount+'</span>';
       mainui_user +=    '</div>';
-      mainui_user += '</div>
+      mainui_user += '</div>';
       
       mainui_user += '</div>';
   
