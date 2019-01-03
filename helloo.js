@@ -1,8 +1,7 @@
 function hello(G){
   document.getElementById('displayControl').parentElement.removeAttribute('style');
   document.getElementById('displayControl').parentElement.setAttribute('style', 'display:none;');
-  var mainui_user ='<div class="user-container">
-                    <img class="user-picture" src="https://agar.io/img/profilepic_guest.png">
+  var mainui_user = '<div class="user-container"><img class="user-picture" src="https://agar.io/img/profilepic_guest.png">
                     
                     <div id="dnaWallet">
                         <span class="labelF2">20</span>
