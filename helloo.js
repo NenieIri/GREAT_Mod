@@ -6,6 +6,7 @@ function hello(G){
   document.getElementById('displayControl').parentElement.removeAttribute('style');
   document.getElementById('displayControl').parentElement.setAttribute('style', 'display:none;');
   
+  console.log(G.querySelector('#mainui-user .user-container'));
   console.log(document.querySelector('#mainui-user .user-container'));
   var user_IMG = G.querySelector('#mainui-user .user-container').firstChild.getAttribute('src');
   console.log(user_IMG);
