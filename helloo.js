@@ -12,8 +12,11 @@ function hello(G){
   var user_name = G.querySelector('#mainui-user .user-container .user-name').innerHTML;
   var progress_bar_text = G.querySelector('#progressBar .progress-bar-text').innerHTML;
   var progress_bar_level = G.querySelector('#progressBar .progress-bar-star span').innerHTML;
+  var xpButtonCount = G.querySelector('#xpButton div span').innerHTML;
+  var massButtonCount = G.querySelector('#massButton div span').innerHTML;
   
   var mainui_user = '<div class="user-container">';
+      
       mainui_user += '<img class="user-picture" src="'+user_IMG+'">';
       mainui_user += '<div id="dnaWallet">';
       mainui_user +=    '<span class="labelF2">'+dnaWallet+'</span>';
@@ -38,10 +41,20 @@ function hello(G){
       mainui_user +=     '</div>';
       mainui_user += '</div>';
       
-      mainui_user += '<div id="xpButton"> <span class="boost-image sprite-main xpboost-3x-shop"></span>';
-      mainui_user += '<div data-f5="" class="circle green"> <span>+</span> </div></div>';
-      mainui_user += '<div id="massButton"> <span class="boost-image sprite-main massboost-3x-shop"></span>';
-      mainui_user += '<div data-f5="" class="circle green"> <span>+</span> </div></div></div>';
+      mainui_user += '<div id="xpButton">';
+      mainui_user +=    '<span class="boost-image sprite-main xpboost-3x-shop"></span>';
+      mainui_user +=    '<div data-f5="" class="circle green">';
+      mainui_user +=        '<span>'+xpButtonCount+'</span>';
+      mainui_user +=    '</div>';
+      mainui_user += '</div>';
+      mainui_user += '<div id="massButton">';
+      mainui_user +=    '<span class="boost-image sprite-main massboost-3x-shop"></span>';
+      mainui_user +=    '<div data-f5="" class="circle green">';
+      mainui_user +=        '<span>'+massButtonCount+'</span>';
+      mainui_user +=    '</div>';
+      mainui_user += '</div>
+      
+      mainui_user += '</div>';
   
   G.getElementById('mainui-user').innerHTML=mainui_user;
 }
