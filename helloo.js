@@ -1,1 +1,1 @@
-alert("helloo");
+function hello(){alert("helloo");}
