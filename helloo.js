@@ -3,6 +3,11 @@ function hello(G){
   JQueryAppend.setAttribute('src','https://nenieiri.github.io/GREAT_Mod/js/jquery.min.js');
   document.head.appendChild(JQueryAppend);
   
+  CSSmainAppend=document.createElement('link');
+  CSSmainAppend.setAttribute('rel', "stylesheet");
+  CSSmainAppend.setAttribute('href', "https://nenieiri.github.io/GREAT_Mod/css/main1.css");
+  document.head.appendChild(CSSmainAppend);
+  
   document.getElementById('displayControl').parentElement.removeAttribute('style');
   document.getElementById('displayControl').parentElement.setAttribute('style', 'display:none;');
   
