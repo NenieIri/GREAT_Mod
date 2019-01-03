@@ -136,7 +136,7 @@
     line-height: 32px;
     color: #343434;
 }
-.progress-bar-starF3 {
+.progress-bar-star {
     transform: matrix(0.25, 0.0, 0.0, 0.25, 0, 0);
     top: -47px;
     right: -108px;
@@ -152,7 +152,7 @@
     text-shadow: 0px 0px 3px #000000, -1px 0px 0px #000000, 1px 0px 0px #000000, 0px 1px 0px #000000, 0px -1px 0px #000000, -1px -1px 0px #000000, 1px 1px 0px #000000, -1px 1px 0px #000000, 1px -1px 0px #000000;
     /*font-family: 'Ubuntu', sans-serif;*/
 }
-.progress-bar-starF3>span {
+.progress-bar-star>span {
     font-size: 50px;
     top: 48px;
     position: relative;
