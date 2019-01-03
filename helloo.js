@@ -25,7 +25,7 @@ function hello(G){
   
   var mainui_user = '<div class="user-container">';
       
-      mainui_user += '<img class="user-picture" src="'+user_IMG+'">';
+      mainui_user += '<img data-v-f15430e2 class="user-picture" src="'+user_IMG+'">';
       mainui_user += '<div id="dnaWallet">';
       mainui_user +=    '<span class="labelF2">'+dnaWallet+'</span>';
       mainui_user +=    '<span class="sprite-main dna-small-icon"></span>';
