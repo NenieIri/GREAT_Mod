@@ -44,7 +44,7 @@ function hello(G){
       mainui_user +=        '<span class="progress-bar-textF3">'+progress_bar_text+'</span>';
       mainui_user +=     '</div>';
       mainui_user +=     '<div class="progress-bar-border"></div>';
-      mainui_user +=     '<div class="'+starClass+'">';
+      mainui_user +=     '<div data-f-star="" class="'+starClass+'">';
       mainui_user +=        '<span>'+progress_bar_level+'</span>';
       mainui_user +=     '</div>';
       mainui_user += '</div>';
