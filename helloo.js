@@ -24,11 +24,11 @@ function hello(G){
   var massButtonTimer = G.querySelectorAll('#massButton span');
   var massButtonClass = G.querySelector('#massButton div').getAttribute('class');
   var massButtonCount = G.querySelector('#massButton div span').innerHTML;
-  /*
+  
   xpButtonTimer = xpButtonTimer[1] ? xpButtonTimer[1] : '';
   massButtonTimer = massButtonTimer[1] ? massButtonTimer[1] : '';
   alert (xpButtonTimer /n massButtonTimer);
-  
+  /*
   var mainui_user = '<div class="user-container">';
       
       mainui_user += '<img class="user-picture" src="'+user_IMG+'">';
