@@ -21,7 +21,7 @@ function hello(G){
   var xpButtonTimer = G.querySelectorAll('#xpButton span');
   var xpButtonClass = G.querySelector('#xpButton div').getAttribute('class');
   var xpButtonCount = G.querySelector('#xpButton div span').innerHTML;
-  //var massButtonTimer = G.querySelectorAll('#massButton span');
+  var massButtonTimer = G.querySelectorAll('#massButton span');
   var massButtonClass = G.querySelector('#massButton div').getAttribute('class');
   var massButtonCount = G.querySelector('#massButton div span').innerHTML;
   
