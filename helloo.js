@@ -10,7 +10,7 @@ function hello(G){
   
   document.getElementById('displayControl').parentElement.removeAttribute('style');
   document.getElementById('displayControl').parentElement.setAttribute('style', 'display:none;');
-  /*
+  
   var user_IMG = G.querySelector('#mainui-user .user-container').firstChild.getAttribute('src');
   var dnaWallet = G.querySelector('#dnaWallet').firstChild.innerHTML;
   var coinWallet = G.querySelector('#coinWallet').firstChild.innerHTML;
@@ -18,17 +18,17 @@ function hello(G){
   var progress_bar_text = G.querySelector('#progressBar .progress-bar-text').innerHTML;
   var progress_bar_level = G.querySelector('#progressBar .progress-bar-star span').innerHTML;
   var starClass = G.querySelector('#progressBar div:nth-child(3)').getAttribute('class');
-  //var xpButtonTimer = G.querySelectorAll('#xpButton span');
+  var xpButtonTimer = G.querySelectorAll('#xpButton span');
   var xpButtonClass = G.querySelector('#xpButton div').getAttribute('class');
   var xpButtonCount = G.querySelector('#xpButton div span').innerHTML;
- // var massButtonTimer = G.querySelectorAll('#massButton span');
+  var massButtonTimer = G.querySelectorAll('#massButton span');
   var massButtonClass = G.querySelector('#massButton div').getAttribute('class');
   var massButtonCount = G.querySelector('#massButton div span').innerHTML;
+  /*
+  xpButtonTimer = xpButtonTimer[1] ? xpButtonTimer[1] : '';
+  massButtonTimer = massButtonTimer[1] ? massButtonTimer[1] : '';
+  alert (xpButtonTimer /n massButtonTimer);
   
- // xpButtonTimer = xpButtonTimer[1] ? xpButtonTimer[1] : '';
- // massButtonTimer = massButtonTimer[1] ? massButtonTimer[1] : '';
-  //alert (xpButtonTimer /n massButtonTimer);
- /* 
   var mainui_user = '<div class="user-container">';
       
       mainui_user += '<img class="user-picture" src="'+user_IMG+'">';
@@ -72,6 +72,6 @@ function hello(G){
       
       mainui_user += '</div>';
   
-  G.getElementById('mainui-user').innerHTML=mainui_user;
+  G.getElementById('mainui-user').innerHTML=mainui_user;*/
 }
-*/
+
