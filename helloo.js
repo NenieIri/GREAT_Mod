@@ -28,7 +28,7 @@ function hello(G){
   xpButtonTimer = xpButtonTimer[1] ? xpButtonTimer[1] : '';
   massButtonTimer = massButtonTimer[1] ? massButtonTimer[1] : '';
   alert (xpButtonTimer /n massButtonTimer);
-  /*
+  
   var mainui_user = '<div class="user-container">';
       
       mainui_user += '<img class="user-picture" src="'+user_IMG+'">';
@@ -57,14 +57,14 @@ function hello(G){
       
       mainui_user += '<div id="xpButton">';
       mainui_user +=    '<span class="boost-image sprite-main xpboost-3x-shop"></span>';
-      mainui_user +=     xpButtonTimer; 
+      //mainui_user +=     xpButtonTimer; 
       mainui_user +=    '<div data-f5="" class="'+xpButtonClass+'">';
       mainui_user +=        '<span>'+xpButtonCount+'</span>';
       mainui_user +=    '</div>';
       mainui_user += '</div>';
       mainui_user += '<div id="massButton">';
       mainui_user +=    '<span class="boost-image sprite-main massboost-3x-shop"></span>';
-      mainui_user +=     massButtonTimer; 
+      //mainui_user +=     massButtonTimer; 
       mainui_user +=    '<div data-f5="" class="'+massButtonClass+'">';
       mainui_user +=        '<span>'+massButtonCount+'</span>';
       mainui_user +=    '</div>';
@@ -72,6 +72,6 @@ function hello(G){
       
       mainui_user += '</div>';
   
-  G.getElementById('mainui-user').innerHTML=mainui_user;*/
+  G.getElementById('mainui-user').innerHTML=mainui_user;
 }
 
