@@ -28,7 +28,7 @@ function hello(G){
   xpButtonTimer = xpButtonTimer[1] ? xpButtonTimer[1] : '';
   massButtonTimer = massButtonTimer[1] ? massButtonTimer[1] : '';
   alert (xpButtonTimer /n massButtonTimer);
-  
+ /* 
   var mainui_user = '<div class="user-container">';
       
       mainui_user += '<img class="user-picture" src="'+user_IMG+'">';
@@ -74,3 +74,4 @@ function hello(G){
   
   G.getElementById('mainui-user').innerHTML=mainui_user;
 }
+*/
