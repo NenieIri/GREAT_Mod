@@ -54,7 +54,7 @@ function hello(G){
       mainui_user +=        '<span>'+progress_bar_level+'</span>';
       mainui_user +=     '</div>';
       mainui_user += '</div>';
-      
+     /* 
       mainui_user += '<div id="xpButton">';
       mainui_user +=    '<span class="boost-image sprite-main xpboost-3x-shop"></span>';
       //mainui_user +=     xpButtonTimer; 
@@ -68,7 +68,7 @@ function hello(G){
       mainui_user +=    '<div data-f5="" class="'+massButtonClass+'">';
       mainui_user +=        '<span>'+massButtonCount+'</span>';
       mainui_user +=    '</div>';
-      mainui_user += '</div>';
+      mainui_user += '</div>';*/
       
       mainui_user += '</div>';
   
