@@ -10,7 +10,7 @@ function hello(G){
   
   document.getElementById('displayControl').parentElement.removeAttribute('style');
   document.getElementById('displayControl').parentElement.setAttribute('style', 'display:none;');
-  
+  /*
   var user_IMG = G.querySelector('#mainui-user .user-container').firstChild.getAttribute('src');
   var dnaWallet = G.querySelector('#dnaWallet').firstChild.innerHTML;
   var coinWallet = G.querySelector('#coinWallet').firstChild.innerHTML;
