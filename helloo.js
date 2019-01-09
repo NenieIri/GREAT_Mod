@@ -25,8 +25,8 @@ function hello(G){
   var massButtonClass = G.querySelector('#massButton div').getAttribute('class');
   var massButtonCount = G.querySelector('#massButton div span').innerHTML;
   
-  xpButtonTimer = xpButtonTimer[1] ? JSON.stringify(xpButtonTimer[1]) : '';
-  massButtonTimer = massButtonTimer[1] ? JSON.stringify(massButtonTimer[1]).innerHTML : '';
+  xpButtonTimer = xpButtonTimer[1] ? xpButtonTimer[1] : '';
+  massButtonTimer = massButtonTimer[1] ? massButtonTimer[1] : '';
   
   var mainui_user = '<div class="user-container">';
       
