@@ -18,10 +18,10 @@ function hello(G){
   var progress_bar_text = G.querySelector('#progressBar .progress-bar-text').innerHTML;
   var progress_bar_level = G.querySelector('#progressBar .progress-bar-star span').innerHTML;
   var starClass = G.querySelector('#progressBar div:nth-child(3)').getAttribute('class');
-  var xpButtonTimer = G.querySelectorAll('#xpButton span');
+  //var xpButtonTimer = G.querySelectorAll('#xpButton span');
   var xpButtonClass = G.querySelector('#xpButton div').getAttribute('class');
   var xpButtonCount = G.querySelector('#xpButton div span').innerHTML;
-  var massButtonTimer = G.querySelectorAll('#massButton span');
+ // var massButtonTimer = G.querySelectorAll('#massButton span');
   var massButtonClass = G.querySelector('#massButton div').getAttribute('class');
   var massButtonCount = G.querySelector('#massButton div span').innerHTML;
   
