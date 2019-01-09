@@ -27,7 +27,7 @@ function hello(G){
   
   xpButtonTimer = xpButtonTimer[1] ? xpButtonTimer[1] : '';
   massButtonTimer = massButtonTimer[1] ? massButtonTimer[1] : '';
-  alert (xpButtonTimer /n massButtonTimer);
+  //alert (xpButtonTimer /n massButtonTimer);
  /* 
   var mainui_user = '<div class="user-container">';
       
